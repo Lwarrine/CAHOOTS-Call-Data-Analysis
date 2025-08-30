@@ -1,5 +1,5 @@
 # CAHOOTS-Call-Data-Analysis
-Data Analysis of call data in order to answer whether CAHOOTS and EPD services arrival times vary by call priority, by time of day, by day of week, and by call type. 
+Data Analysis of call data in order to answer whether CAHOOTS and EPD services arrival times vary by call priority, by time of day, by day of week, and by call type. A full project report can be found under the CAHOOTS Project Report file
 ## Combining Data
 The data is initially sepearted into a different csv file for each year and needs to be combined into one csv file. Combine.ipynb combines these csv files into 1 csv file assuming it is run in same folder as all the individual files.
 ## Cleaning Data
