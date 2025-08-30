@@ -16,4 +16,4 @@ Additionally rows where dispatch_time, arrival_time, clear_time are missing or <
 Calls where the call source are 'SELF' are also removed as many of these are incidents where the a unit is already on scene and not what I am intrested in looking at i.e, a traffic stop
 
 ## Analyzing Data
-Taking the cleaned csv file made in Clean.ipynb
+Graphs are created comparing arrival times between EPD and CAHOOTS for each hour of the day, day of the week, call priority, and call nature. This is additionally done with how long it takes EPD and CAHOOTS to clear a call and move on to the next one. An independtent t-test is used to see if the difference betwwen EPD and CAHOOTs is statistically significant. 
